@@ -1,0 +1,40 @@
+FROM mcr.microsoft.com/dotnet/sdk:10.0 AS build
+
+# Native dev packages so the exact .so files referenced in the
+# .csproj's manual <Link> ItemGroup exist at build time.
+RUN apt-get update && apt-get install -y --no-install-recommends \
+    libleptonica-dev \
+    libtesseract-dev \
+    && rm -rf /var/lib/apt/lists/*
+
+WORKDIR /src
+COPY src/DocumentTextExtractionSystem.Api/*.csproj ./DocumentTextExtractionSystem.Api/
+RUN dotnet restore ./DocumentTextExtractionSystem.Api/DocumentTextExtractionSystem.Api.csproj
+
+# Now copy the rest of the source and publish.
+COPY src/DocumentTextExtractionSystem.Api/. ./DocumentTextExtractionSystem.Api/
+RUN dotnet publish ./DocumentTextExtractionSystem.Api/DocumentTextExtractionSystem.Api.csproj \
+    -c Release \
+    -o /app/publish \
+    --no-restore
+
+
+FROM mcr.microsoft.com/dotnet/aspnet:10.0 AS runtime
+
+
+RUN apt-get update && apt-get install -y --no-install-recommends \
+    tesseract-ocr \
+    poppler-utils \
+    libc6-dev \
+    && rm -rf /var/lib/apt/lists/* \
+    && ln -sf /usr/lib/x86_64-linux-gnu/libc.so.6 /usr/lib/x86_64-linux-gnu/libdl.so
+
+WORKDIR /app
+COPY --from=build /app/publish .
+
+# Kestrel listens on 8080 inside the container by convention for
+# the official .NET container images (non-root, unprivileged port).
+ENV ASPNETCORE_URLS=http://+:8080
+EXPOSE 8080
+
+ENTRYPOINT ["dotnet", "DocumentTextExtractionSystem.Api.dll"]
