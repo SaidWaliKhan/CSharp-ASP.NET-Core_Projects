@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/home/said-wali-ayyan/Desktop/ProductCatalog/ProductCatalog.API/ProductCatalog.API.csproj": {}
+    "/home/said-wali-ayyan/Desktop/CSharp-ASP.NET-Core_Projects/ProductCatalog/ProductCatalog.API/ProductCatalog.API.csproj": {}
   },
   "projects": {
-    "/home/said-wali-ayyan/Desktop/ProductCatalog/ProductCatalog.API/ProductCatalog.API.csproj": {
+    "/home/said-wali-ayyan/Desktop/CSharp-ASP.NET-Core_Projects/ProductCatalog/ProductCatalog.API/ProductCatalog.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/said-wali-ayyan/Desktop/ProductCatalog/ProductCatalog.API/ProductCatalog.API.csproj",
+        "projectUniqueName": "/home/said-wali-ayyan/Desktop/CSharp-ASP.NET-Core_Projects/ProductCatalog/ProductCatalog.API/ProductCatalog.API.csproj",
         "projectName": "ProductCatalog.API",
-        "projectPath": "/home/said-wali-ayyan/Desktop/ProductCatalog/ProductCatalog.API/ProductCatalog.API.csproj",
+        "projectPath": "/home/said-wali-ayyan/Desktop/CSharp-ASP.NET-Core_Projects/ProductCatalog/ProductCatalog.API/ProductCatalog.API.csproj",
         "packagesPath": "/home/said-wali-ayyan/.nuget/packages/",
-        "outputPath": "/home/said-wali-ayyan/Desktop/ProductCatalog/ProductCatalog.API/obj/",
+        "outputPath": "/home/said-wali-ayyan/Desktop/CSharp-ASP.NET-Core_Projects/ProductCatalog/ProductCatalog.API/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/said-wali-ayyan/.nuget/NuGet/NuGet.Config"
@@ -48,6 +48,22 @@
             "Microsoft.AspNetCore.OpenApi": {
               "target": "Package",
               "version": "[10.0.9, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[10.0.10, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[10.0.10, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[10.0.10, )"
             }
           },
           "imports": [
