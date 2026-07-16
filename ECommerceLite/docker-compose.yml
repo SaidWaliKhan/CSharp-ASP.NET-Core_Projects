@@ -1,0 +1,8 @@
+# this is the latest version of docker-compose file format
+services:  # Define the services for the Docker Compose setup
+  rabbitmq: # Define the RabbitMQ service
+    image: rabbitmq:3-management      # Use the official RabbitMQ image with the management plugin
+    container_name: ecommerce_rabbitmq     # Set a custom name for the RabbitMQ container
+    ports:
+      - "5672:5672"    # Map the default RabbitMQ port for messaging
+      - "15672:15672"  # Map the management plugin port for web-based management interface

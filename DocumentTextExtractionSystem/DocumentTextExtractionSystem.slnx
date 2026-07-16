@@ -1,0 +1,5 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/DocumentTextExtractionSystem.Api/DocumentTextExtractionSystem.Api.csproj" />
+  </Folder>
+</Solution>
