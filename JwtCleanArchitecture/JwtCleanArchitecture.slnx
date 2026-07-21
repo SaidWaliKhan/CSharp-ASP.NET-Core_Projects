@@ -1,0 +1,8 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/Jwt.Application/Jwt.Application.csproj" />
+    <Project Path="src/Jwt.Domain/Jwt.Domain.csproj" />
+    <Project Path="src/Jwt.Infrastructure/Jwt.Infrastructure.csproj" />
+    <Project Path="src/Jwt.WebApi/Jwt.WebApi.csproj" />
+  </Folder>
+</Solution>

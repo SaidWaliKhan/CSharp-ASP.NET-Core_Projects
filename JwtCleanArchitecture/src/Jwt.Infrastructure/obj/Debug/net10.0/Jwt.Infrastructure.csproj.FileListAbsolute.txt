@@ -1,0 +1,17 @@
+/home/said-wali-ayyan/Desktop/JwtCleanArchitecture/src/Jwt.Infrastructure/bin/Debug/net10.0/Jwt.Infrastructure.deps.json
+/home/said-wali-ayyan/Desktop/JwtCleanArchitecture/src/Jwt.Infrastructure/bin/Debug/net10.0/Jwt.Infrastructure.dll
+/home/said-wali-ayyan/Desktop/JwtCleanArchitecture/src/Jwt.Infrastructure/bin/Debug/net10.0/Jwt.Infrastructure.pdb
+/home/said-wali-ayyan/Desktop/JwtCleanArchitecture/src/Jwt.Infrastructure/bin/Debug/net10.0/Jwt.Application.dll
+/home/said-wali-ayyan/Desktop/JwtCleanArchitecture/src/Jwt.Infrastructure/bin/Debug/net10.0/Jwt.Domain.dll
+/home/said-wali-ayyan/Desktop/JwtCleanArchitecture/src/Jwt.Infrastructure/bin/Debug/net10.0/Jwt.Domain.pdb
+/home/said-wali-ayyan/Desktop/JwtCleanArchitecture/src/Jwt.Infrastructure/bin/Debug/net10.0/Jwt.Application.pdb
+/home/said-wali-ayyan/Desktop/JwtCleanArchitecture/src/Jwt.Infrastructure/obj/Debug/net10.0/Jwt.Infrastructure.csproj.AssemblyReference.cache
+/home/said-wali-ayyan/Desktop/JwtCleanArchitecture/src/Jwt.Infrastructure/obj/Debug/net10.0/Jwt.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+/home/said-wali-ayyan/Desktop/JwtCleanArchitecture/src/Jwt.Infrastructure/obj/Debug/net10.0/Jwt.Infrastructure.AssemblyInfoInputs.cache
+/home/said-wali-ayyan/Desktop/JwtCleanArchitecture/src/Jwt.Infrastructure/obj/Debug/net10.0/Jwt.Infrastructure.AssemblyInfo.cs
+/home/said-wali-ayyan/Desktop/JwtCleanArchitecture/src/Jwt.Infrastructure/obj/Debug/net10.0/Jwt.Infrastructure.csproj.CoreCompileInputs.cache
+/home/said-wali-ayyan/Desktop/JwtCleanArchitecture/src/Jwt.Infrastructure/obj/Debug/net10.0/Jwt.Infr.4B64DD31.Up2Date
+/home/said-wali-ayyan/Desktop/JwtCleanArchitecture/src/Jwt.Infrastructure/obj/Debug/net10.0/Jwt.Infrastructure.dll
+/home/said-wali-ayyan/Desktop/JwtCleanArchitecture/src/Jwt.Infrastructure/obj/Debug/net10.0/refint/Jwt.Infrastructure.dll
+/home/said-wali-ayyan/Desktop/JwtCleanArchitecture/src/Jwt.Infrastructure/obj/Debug/net10.0/Jwt.Infrastructure.pdb
+/home/said-wali-ayyan/Desktop/JwtCleanArchitecture/src/Jwt.Infrastructure/obj/Debug/net10.0/ref/Jwt.Infrastructure.dll

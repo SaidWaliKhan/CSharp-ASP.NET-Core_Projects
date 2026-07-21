@@ -1,0 +1,11 @@
+/home/said-wali-ayyan/Desktop/JwtCleanArchitecture/src/Jwt.Domain/bin/Debug/net10.0/Jwt.Domain.deps.json
+/home/said-wali-ayyan/Desktop/JwtCleanArchitecture/src/Jwt.Domain/bin/Debug/net10.0/Jwt.Domain.dll
+/home/said-wali-ayyan/Desktop/JwtCleanArchitecture/src/Jwt.Domain/bin/Debug/net10.0/Jwt.Domain.pdb
+/home/said-wali-ayyan/Desktop/JwtCleanArchitecture/src/Jwt.Domain/obj/Debug/net10.0/Jwt.Domain.GeneratedMSBuildEditorConfig.editorconfig
+/home/said-wali-ayyan/Desktop/JwtCleanArchitecture/src/Jwt.Domain/obj/Debug/net10.0/Jwt.Domain.AssemblyInfoInputs.cache
+/home/said-wali-ayyan/Desktop/JwtCleanArchitecture/src/Jwt.Domain/obj/Debug/net10.0/Jwt.Domain.AssemblyInfo.cs
+/home/said-wali-ayyan/Desktop/JwtCleanArchitecture/src/Jwt.Domain/obj/Debug/net10.0/Jwt.Domain.csproj.CoreCompileInputs.cache
+/home/said-wali-ayyan/Desktop/JwtCleanArchitecture/src/Jwt.Domain/obj/Debug/net10.0/Jwt.Domain.dll
+/home/said-wali-ayyan/Desktop/JwtCleanArchitecture/src/Jwt.Domain/obj/Debug/net10.0/refint/Jwt.Domain.dll
+/home/said-wali-ayyan/Desktop/JwtCleanArchitecture/src/Jwt.Domain/obj/Debug/net10.0/Jwt.Domain.pdb
+/home/said-wali-ayyan/Desktop/JwtCleanArchitecture/src/Jwt.Domain/obj/Debug/net10.0/ref/Jwt.Domain.dll

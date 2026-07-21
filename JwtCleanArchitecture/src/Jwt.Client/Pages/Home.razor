@@ -1,0 +1,28 @@
+﻿@page "/"
+
+<PageTitle>Home</PageTitle>
+
+<div class="content-card">
+    <div class="jwt-strip" aria-hidden="true">
+        <span class="jwt-seg jwt-seg--header"></span>
+        <span class="jwt-dot">.</span>
+        <span class="jwt-seg jwt-seg--payload"></span>
+        <span class="jwt-dot">.</span>
+        <span class="jwt-seg jwt-seg--signature"></span>
+    </div>
+
+    <h3>Jwt.Client</h3>
+
+    <AuthorizeView>
+        <Authorized>
+            <p style="color: var(--color-text-muted);">
+                You're signed in as <strong style="color: var(--color-text);">@context.User.Identity?.Name</strong>.
+            </p>
+            <a href="/profile">View your token claims &rarr;</a>
+        </Authorized>
+        <NotAuthorized>
+            <p style="color: var(--color-text-muted);">You're not signed in yet.</p>
+            <a href="/login">Sign in</a> or <a href="/register">create an account</a>.
+        </NotAuthorized>
+    </AuthorizeView>
+</div>

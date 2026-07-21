@@ -1,0 +1,30 @@
+@page "/profile"
+@attribute [Authorize]
+@using System.Security.Claims
+@inject AuthenticationStateProvider AuthStateProvider
+
+<PageTitle>Profile</PageTitle>
+
+<div class="content-card">
+    <p class="auth-eyebrow">GET /api/auth/me</p>
+    <h3>Your claims</h3>
+    <p style="color: var(--color-text-muted); margin-top: -8px;">Decoded straight out of the access token in local
+        storage.</p>
+
+        <ul class="claims-list">
+            @foreach (var claim in _claims)
+            {
+                <li><strong>@claim.Type</strong>@claim.Value</li>
+            }
+        </ul>
+    </div>
+
+@code {
+    private IEnumerable<Claim> _claims = Enumerable.Empty<Claim>();
+
+    protected override async Task OnInitializedAsync()
+    {
+        var state = await AuthStateProvider.GetAuthenticationStateAsync();
+        _claims = state.User.Claims;
+    }
+}

@@ -1,0 +1,25 @@
+﻿@inject NavigationManager Navigation
+@inject Jwt.Client.Services.ApiAuthService AuthService
+
+<nav style="display:flex; gap:12px;">
+    <a href="/">Home</a>
+
+    <AuthorizeView>
+        <Authorized>
+            <a href="/profile">Profile</a>
+            <button @onclick="LogoutAsync">Logout</button>
+        </Authorized>
+        <NotAuthorized>
+            <a href="/login">Login</a>
+            <a href="/register">Register</a>
+        </NotAuthorized>
+    </AuthorizeView>
+</nav>
+
+@code {
+    private async Task LogoutAsync()
+    {
+        await AuthService.LogoutAsync();
+        Navigation.NavigateTo("/", forceLoad: true);
+    }
+}

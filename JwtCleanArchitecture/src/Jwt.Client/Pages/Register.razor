@@ -1,0 +1,78 @@
+@page "/register"
+@using Jwt.Client.Models
+@using Jwt.Client.Services
+@inject ApiAuthService AuthService
+@inject NavigationManager Navigation
+
+<PageTitle>Register</PageTitle>
+
+<div class="auth-card">
+    <div class="jwt-strip" aria-hidden="true">
+        <span class="jwt-seg jwt-seg--header"></span>
+        <span class="jwt-dot">.</span>
+        <span class="jwt-seg jwt-seg--payload"></span>
+        <span class="jwt-dot">.</span>
+        <span class="jwt-seg jwt-seg--signature"></span>
+    </div>
+    <p class="jwt-caption">header . payload . signature</p>
+
+    <p class="auth-eyebrow">POST /api/auth/register</p>
+    <h1 class="auth-title">Create your account</h1>
+    <p class="auth-subtitle">You'll get a token the moment this succeeds.</p>
+
+    <EditForm Model="_model" OnValidSubmit="HandleRegisterAsync">
+        <DataAnnotationsValidator />
+        <ValidationSummary class="validation-summary" />
+
+        <div class="field">
+            <label for="fullName">Full name</label>
+            <InputText id="fullName" @bind-Value="_model.FullName" placeholder="Ada Lovelace" />
+        </div>
+
+        <div class="field">
+            <label for="email">Email</label>
+            <InputText id="email" @bind-Value="_model.Email" placeholder="you@example.com" />
+        </div>
+
+        <div class="field">
+            <label for="password">Password</label>
+            <InputText id="password" type="password" @bind-Value="_model.Password" placeholder="min. 6 characters" />
+        </div>
+
+        <button type="submit" class="auth-submit" disabled="@_isLoading">
+            @(_isLoading ? "Creating account..." : "Create account")
+        </button>
+    </EditForm>
+
+    @if (!string.IsNullOrWhiteSpace(_errorMessage))
+    {
+        <div class="auth-error">@_errorMessage</div>
+    }
+
+    <p class="auth-footer">Already have an account? <a href="/login">Sign in</a></p>
+</div>
+
+@code {
+    private readonly RegisterModel _model = new();
+    private bool _isLoading;
+    private string? _errorMessage;
+
+    private async Task HandleRegisterAsync()
+    {
+        _isLoading = true;
+        _errorMessage = null;
+
+        var result = await AuthService.RegisterAsync(_model);
+
+        _isLoading = false;
+
+        if (result.Success)
+        {
+            Navigation.NavigateTo("/profile", forceLoad: true);
+        }
+        else
+        {
+            _errorMessage = result.Message;
+        }
+    }
+}
