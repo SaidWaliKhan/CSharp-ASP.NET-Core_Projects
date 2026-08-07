@@ -1548,11 +1548,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/said-wali-ayyan/Desktop/StudentManagementSystem/tests/SMS.Application.Tests/SMS.Application.Tests.csproj",
+      "projectUniqueName": "/home/said-wali-ayyan/Desktop/CSharp-ASP.NET-Core_Projects/StudentManagementSystem/tests/SMS.Application.Tests/SMS.Application.Tests.csproj",
       "projectName": "SMS.Application.Tests",
-      "projectPath": "/home/said-wali-ayyan/Desktop/StudentManagementSystem/tests/SMS.Application.Tests/SMS.Application.Tests.csproj",
+      "projectPath": "/home/said-wali-ayyan/Desktop/CSharp-ASP.NET-Core_Projects/StudentManagementSystem/tests/SMS.Application.Tests/SMS.Application.Tests.csproj",
       "packagesPath": "/home/said-wali-ayyan/.nuget/packages/",
-      "outputPath": "/home/said-wali-ayyan/Desktop/StudentManagementSystem/tests/SMS.Application.Tests/obj/",
+      "outputPath": "/home/said-wali-ayyan/Desktop/CSharp-ASP.NET-Core_Projects/StudentManagementSystem/tests/SMS.Application.Tests/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/home/said-wali-ayyan/.nuget/NuGet/NuGet.Config"
@@ -1568,8 +1568,8 @@
         "net10.0": {
           "targetAlias": "net10.0",
           "projectReferences": {
-            "/home/said-wali-ayyan/Desktop/StudentManagementSystem/src/SMS.Application/SMS.Application.csproj": {
-              "projectPath": "/home/said-wali-ayyan/Desktop/StudentManagementSystem/src/SMS.Application/SMS.Application.csproj"
+            "/home/said-wali-ayyan/Desktop/CSharp-ASP.NET-Core_Projects/StudentManagementSystem/src/SMS.Application/SMS.Application.csproj": {
+              "projectPath": "/home/said-wali-ayyan/Desktop/CSharp-ASP.NET-Core_Projects/StudentManagementSystem/src/SMS.Application/SMS.Application.csproj"
             }
           }
         }

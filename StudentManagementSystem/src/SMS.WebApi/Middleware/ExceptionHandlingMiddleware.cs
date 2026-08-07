@@ -8,11 +8,16 @@ public class ExceptionHandlingMiddleware
 {
     private readonly RequestDelegate _next;
     private readonly ILogger<ExceptionHandlingMiddleware> _logger;
+    private readonly IHostEnvironment _environment;
 
-    public ExceptionHandlingMiddleware(RequestDelegate next, ILogger<ExceptionHandlingMiddleware> logger)
+    public ExceptionHandlingMiddleware(
+        RequestDelegate next,
+        ILogger<ExceptionHandlingMiddleware> logger,
+        IHostEnvironment environment)
     {
         _next = next;
         _logger = logger;
+        _environment = environment;
     }
 
     public async Task InvokeAsync(HttpContext context)
@@ -29,7 +34,6 @@ public class ExceptionHandlingMiddleware
 
     private async Task HandleExceptionAsync(HttpContext context, Exception exception)
     {
-        // Log the REAL exception with full detail server-side, always — regardless of what we tell the client.
         _logger.LogError(exception, "Unhandled exception occurred: {Message}", exception.Message);
 
         var (statusCode, title, errors) = MapException(exception);
@@ -42,7 +46,10 @@ public class ExceptionHandlingMiddleware
             status = statusCode,
             title,
             errors,
-            traceId = context.TraceIdentifier
+            traceId = context.TraceIdentifier,
+            // ONLY in Development — never leak this in production, since it can contain
+            // stack traces, file paths, sometimes even parts of connection strings.
+            detail = _environment.IsDevelopment() ? exception.ToString() : null
         };
 
         await context.Response.WriteAsync(JsonSerializer.Serialize(problemDetails));

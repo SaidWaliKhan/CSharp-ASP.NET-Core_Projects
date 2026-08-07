@@ -13,9 +13,12 @@ public static class DependencyInjection
         IConfiguration configuration)
     {
         services.AddDbContext<AppDbContext>(options =>
+        {
             options.UseSqlServer(
                 configuration.GetConnectionString("DefaultConnection"),
-                sql => sql.MigrationsAssembly(typeof(AppDbContext).Assembly.FullName)));
+                sql => sql.MigrationsAssembly(typeof(AppDbContext).Assembly.FullName));
+
+        });
 
         services.AddScoped<IUnitOfWork, UnitOfWork>();
 

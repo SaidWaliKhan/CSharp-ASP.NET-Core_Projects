@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ja0QLySwNH0=",
+  "dgSpecHash": "UB2ir5y0fnQ=",
   "success": true,
-  "projectFilePath": "/home/said-wali-ayyan/Desktop/StudentManagementSystem/tests/SMS.Domain.Tests/SMS.Domain.Tests.csproj",
+  "projectFilePath": "/home/said-wali-ayyan/Desktop/CSharp-ASP.NET-Core_Projects/StudentManagementSystem/tests/SMS.Domain.Tests/SMS.Domain.Tests.csproj",
   "expectedPackageFiles": [
     "/home/said-wali-ayyan/.nuget/packages/coverlet.collector/6.0.4/coverlet.collector.6.0.4.nupkg.sha512",
     "/home/said-wali-ayyan/.nuget/packages/microsoft.codecoverage/17.14.1/microsoft.codecoverage.17.14.1.nupkg.sha512",

@@ -9,3 +9,15 @@
 /home/said-wali-ayyan/Desktop/StudentManagementSystem/src/SMS.Domain/obj/Debug/net10.0/refint/SMS.Domain.dll
 /home/said-wali-ayyan/Desktop/StudentManagementSystem/src/SMS.Domain/obj/Debug/net10.0/SMS.Domain.pdb
 /home/said-wali-ayyan/Desktop/StudentManagementSystem/src/SMS.Domain/obj/Debug/net10.0/ref/SMS.Domain.dll
+/home/said-wali-ayyan/Desktop/CSharp-ASP.NET-Core_Projects/StudentManagementSystem/src/SMS.Domain/bin/Debug/net10.0/SMS.Domain.deps.json
+/home/said-wali-ayyan/Desktop/CSharp-ASP.NET-Core_Projects/StudentManagementSystem/src/SMS.Domain/bin/Debug/net10.0/SMS.Domain.dll
+/home/said-wali-ayyan/Desktop/CSharp-ASP.NET-Core_Projects/StudentManagementSystem/src/SMS.Domain/bin/Debug/net10.0/SMS.Domain.pdb
+/home/said-wali-ayyan/Desktop/CSharp-ASP.NET-Core_Projects/StudentManagementSystem/src/SMS.Domain/obj/Debug/net10.0/SMS.Domain.GeneratedMSBuildEditorConfig.editorconfig
+/home/said-wali-ayyan/Desktop/CSharp-ASP.NET-Core_Projects/StudentManagementSystem/src/SMS.Domain/obj/Debug/net10.0/SMS.Domain.AssemblyInfoInputs.cache
+/home/said-wali-ayyan/Desktop/CSharp-ASP.NET-Core_Projects/StudentManagementSystem/src/SMS.Domain/obj/Debug/net10.0/SMS.Domain.AssemblyInfo.cs
+/home/said-wali-ayyan/Desktop/CSharp-ASP.NET-Core_Projects/StudentManagementSystem/src/SMS.Domain/obj/Debug/net10.0/SMS.Domain.csproj.CoreCompileInputs.cache
+/home/said-wali-ayyan/Desktop/CSharp-ASP.NET-Core_Projects/StudentManagementSystem/src/SMS.Domain/obj/Debug/net10.0/SMS.Domain.sourcelink.json
+/home/said-wali-ayyan/Desktop/CSharp-ASP.NET-Core_Projects/StudentManagementSystem/src/SMS.Domain/obj/Debug/net10.0/SMS.Domain.dll
+/home/said-wali-ayyan/Desktop/CSharp-ASP.NET-Core_Projects/StudentManagementSystem/src/SMS.Domain/obj/Debug/net10.0/refint/SMS.Domain.dll
+/home/said-wali-ayyan/Desktop/CSharp-ASP.NET-Core_Projects/StudentManagementSystem/src/SMS.Domain/obj/Debug/net10.0/SMS.Domain.pdb
+/home/said-wali-ayyan/Desktop/CSharp-ASP.NET-Core_Projects/StudentManagementSystem/src/SMS.Domain/obj/Debug/net10.0/ref/SMS.Domain.dll

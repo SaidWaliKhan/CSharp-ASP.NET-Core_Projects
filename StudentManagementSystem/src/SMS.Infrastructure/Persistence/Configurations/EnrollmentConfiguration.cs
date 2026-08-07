@@ -10,6 +10,7 @@ public class EnrollmentConfiguration : IEntityTypeConfiguration<Enrollment>
     {
         builder.ToTable("Enrollments");
         builder.HasKey(e => e.Id);
+        builder.Property(e => e.Id).ValueGeneratedNever();
 
         builder.Property(e => e.EnrolledAtUtc).IsRequired();
         builder.Property(e => e.Grade).HasMaxLength(10);

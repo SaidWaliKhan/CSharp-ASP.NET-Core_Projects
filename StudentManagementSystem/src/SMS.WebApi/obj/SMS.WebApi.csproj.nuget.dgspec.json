@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/home/said-wali-ayyan/Desktop/StudentManagementSystem/src/SMS.WebApi/SMS.WebApi.csproj": {}
+    "/home/said-wali-ayyan/Desktop/CSharp-ASP.NET-Core_Projects/StudentManagementSystem/src/SMS.WebApi/SMS.WebApi.csproj": {}
   },
   "projects": {
-    "/home/said-wali-ayyan/Desktop/StudentManagementSystem/src/SMS.Application/SMS.Application.csproj": {
+    "/home/said-wali-ayyan/Desktop/CSharp-ASP.NET-Core_Projects/StudentManagementSystem/src/SMS.Application/SMS.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/said-wali-ayyan/Desktop/StudentManagementSystem/src/SMS.Application/SMS.Application.csproj",
+        "projectUniqueName": "/home/said-wali-ayyan/Desktop/CSharp-ASP.NET-Core_Projects/StudentManagementSystem/src/SMS.Application/SMS.Application.csproj",
         "projectName": "SMS.Application",
-        "projectPath": "/home/said-wali-ayyan/Desktop/StudentManagementSystem/src/SMS.Application/SMS.Application.csproj",
+        "projectPath": "/home/said-wali-ayyan/Desktop/CSharp-ASP.NET-Core_Projects/StudentManagementSystem/src/SMS.Application/SMS.Application.csproj",
         "packagesPath": "/home/said-wali-ayyan/.nuget/packages/",
-        "outputPath": "/home/said-wali-ayyan/Desktop/StudentManagementSystem/src/SMS.Application/obj/",
+        "outputPath": "/home/said-wali-ayyan/Desktop/CSharp-ASP.NET-Core_Projects/StudentManagementSystem/src/SMS.Application/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/said-wali-ayyan/.nuget/NuGet/NuGet.Config"
@@ -27,8 +27,8 @@
           "net10.0": {
             "targetAlias": "net10.0",
             "projectReferences": {
-              "/home/said-wali-ayyan/Desktop/StudentManagementSystem/src/SMS.Domain/SMS.Domain.csproj": {
-                "projectPath": "/home/said-wali-ayyan/Desktop/StudentManagementSystem/src/SMS.Domain/SMS.Domain.csproj"
+              "/home/said-wali-ayyan/Desktop/CSharp-ASP.NET-Core_Projects/StudentManagementSystem/src/SMS.Domain/SMS.Domain.csproj": {
+                "projectPath": "/home/said-wali-ayyan/Desktop/CSharp-ASP.NET-Core_Projects/StudentManagementSystem/src/SMS.Domain/SMS.Domain.csproj"
               }
             }
           }
@@ -356,14 +356,14 @@
         }
       }
     },
-    "/home/said-wali-ayyan/Desktop/StudentManagementSystem/src/SMS.Domain/SMS.Domain.csproj": {
+    "/home/said-wali-ayyan/Desktop/CSharp-ASP.NET-Core_Projects/StudentManagementSystem/src/SMS.Domain/SMS.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/said-wali-ayyan/Desktop/StudentManagementSystem/src/SMS.Domain/SMS.Domain.csproj",
+        "projectUniqueName": "/home/said-wali-ayyan/Desktop/CSharp-ASP.NET-Core_Projects/StudentManagementSystem/src/SMS.Domain/SMS.Domain.csproj",
         "projectName": "SMS.Domain",
-        "projectPath": "/home/said-wali-ayyan/Desktop/StudentManagementSystem/src/SMS.Domain/SMS.Domain.csproj",
+        "projectPath": "/home/said-wali-ayyan/Desktop/CSharp-ASP.NET-Core_Projects/StudentManagementSystem/src/SMS.Domain/SMS.Domain.csproj",
         "packagesPath": "/home/said-wali-ayyan/.nuget/packages/",
-        "outputPath": "/home/said-wali-ayyan/Desktop/StudentManagementSystem/src/SMS.Domain/obj/",
+        "outputPath": "/home/said-wali-ayyan/Desktop/CSharp-ASP.NET-Core_Projects/StudentManagementSystem/src/SMS.Domain/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/said-wali-ayyan/.nuget/NuGet/NuGet.Config"
@@ -690,14 +690,14 @@
         }
       }
     },
-    "/home/said-wali-ayyan/Desktop/StudentManagementSystem/src/SMS.Infrastructure/SMS.Infrastructure.csproj": {
+    "/home/said-wali-ayyan/Desktop/CSharp-ASP.NET-Core_Projects/StudentManagementSystem/src/SMS.Infrastructure/SMS.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/said-wali-ayyan/Desktop/StudentManagementSystem/src/SMS.Infrastructure/SMS.Infrastructure.csproj",
+        "projectUniqueName": "/home/said-wali-ayyan/Desktop/CSharp-ASP.NET-Core_Projects/StudentManagementSystem/src/SMS.Infrastructure/SMS.Infrastructure.csproj",
         "projectName": "SMS.Infrastructure",
-        "projectPath": "/home/said-wali-ayyan/Desktop/StudentManagementSystem/src/SMS.Infrastructure/SMS.Infrastructure.csproj",
+        "projectPath": "/home/said-wali-ayyan/Desktop/CSharp-ASP.NET-Core_Projects/StudentManagementSystem/src/SMS.Infrastructure/SMS.Infrastructure.csproj",
         "packagesPath": "/home/said-wali-ayyan/.nuget/packages/",
-        "outputPath": "/home/said-wali-ayyan/Desktop/StudentManagementSystem/src/SMS.Infrastructure/obj/",
+        "outputPath": "/home/said-wali-ayyan/Desktop/CSharp-ASP.NET-Core_Projects/StudentManagementSystem/src/SMS.Infrastructure/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/said-wali-ayyan/.nuget/NuGet/NuGet.Config"
@@ -713,11 +713,11 @@
           "net10.0": {
             "targetAlias": "net10.0",
             "projectReferences": {
-              "/home/said-wali-ayyan/Desktop/StudentManagementSystem/src/SMS.Application/SMS.Application.csproj": {
-                "projectPath": "/home/said-wali-ayyan/Desktop/StudentManagementSystem/src/SMS.Application/SMS.Application.csproj"
+              "/home/said-wali-ayyan/Desktop/CSharp-ASP.NET-Core_Projects/StudentManagementSystem/src/SMS.Application/SMS.Application.csproj": {
+                "projectPath": "/home/said-wali-ayyan/Desktop/CSharp-ASP.NET-Core_Projects/StudentManagementSystem/src/SMS.Application/SMS.Application.csproj"
               },
-              "/home/said-wali-ayyan/Desktop/StudentManagementSystem/src/SMS.Domain/SMS.Domain.csproj": {
-                "projectPath": "/home/said-wali-ayyan/Desktop/StudentManagementSystem/src/SMS.Domain/SMS.Domain.csproj"
+              "/home/said-wali-ayyan/Desktop/CSharp-ASP.NET-Core_Projects/StudentManagementSystem/src/SMS.Domain/SMS.Domain.csproj": {
+                "projectPath": "/home/said-wali-ayyan/Desktop/CSharp-ASP.NET-Core_Projects/StudentManagementSystem/src/SMS.Domain/SMS.Domain.csproj"
               }
             }
           }
@@ -1047,14 +1047,14 @@
         }
       }
     },
-    "/home/said-wali-ayyan/Desktop/StudentManagementSystem/src/SMS.WebApi/SMS.WebApi.csproj": {
+    "/home/said-wali-ayyan/Desktop/CSharp-ASP.NET-Core_Projects/StudentManagementSystem/src/SMS.WebApi/SMS.WebApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/said-wali-ayyan/Desktop/StudentManagementSystem/src/SMS.WebApi/SMS.WebApi.csproj",
+        "projectUniqueName": "/home/said-wali-ayyan/Desktop/CSharp-ASP.NET-Core_Projects/StudentManagementSystem/src/SMS.WebApi/SMS.WebApi.csproj",
         "projectName": "SMS.WebApi",
-        "projectPath": "/home/said-wali-ayyan/Desktop/StudentManagementSystem/src/SMS.WebApi/SMS.WebApi.csproj",
+        "projectPath": "/home/said-wali-ayyan/Desktop/CSharp-ASP.NET-Core_Projects/StudentManagementSystem/src/SMS.WebApi/SMS.WebApi.csproj",
         "packagesPath": "/home/said-wali-ayyan/.nuget/packages/",
-        "outputPath": "/home/said-wali-ayyan/Desktop/StudentManagementSystem/src/SMS.WebApi/obj/",
+        "outputPath": "/home/said-wali-ayyan/Desktop/CSharp-ASP.NET-Core_Projects/StudentManagementSystem/src/SMS.WebApi/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/said-wali-ayyan/.nuget/NuGet/NuGet.Config"
@@ -1070,11 +1070,11 @@
           "net10.0": {
             "targetAlias": "net10.0",
             "projectReferences": {
-              "/home/said-wali-ayyan/Desktop/StudentManagementSystem/src/SMS.Application/SMS.Application.csproj": {
-                "projectPath": "/home/said-wali-ayyan/Desktop/StudentManagementSystem/src/SMS.Application/SMS.Application.csproj"
+              "/home/said-wali-ayyan/Desktop/CSharp-ASP.NET-Core_Projects/StudentManagementSystem/src/SMS.Application/SMS.Application.csproj": {
+                "projectPath": "/home/said-wali-ayyan/Desktop/CSharp-ASP.NET-Core_Projects/StudentManagementSystem/src/SMS.Application/SMS.Application.csproj"
               },
-              "/home/said-wali-ayyan/Desktop/StudentManagementSystem/src/SMS.Infrastructure/SMS.Infrastructure.csproj": {
-                "projectPath": "/home/said-wali-ayyan/Desktop/StudentManagementSystem/src/SMS.Infrastructure/SMS.Infrastructure.csproj"
+              "/home/said-wali-ayyan/Desktop/CSharp-ASP.NET-Core_Projects/StudentManagementSystem/src/SMS.Infrastructure/SMS.Infrastructure.csproj": {
+                "projectPath": "/home/said-wali-ayyan/Desktop/CSharp-ASP.NET-Core_Projects/StudentManagementSystem/src/SMS.Infrastructure/SMS.Infrastructure.csproj"
               }
             }
           }

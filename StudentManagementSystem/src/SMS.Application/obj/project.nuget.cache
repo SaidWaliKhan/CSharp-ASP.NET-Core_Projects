@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "iAKQ7PMWKaE=",
+  "dgSpecHash": "HWTED8BgFZo=",
   "success": true,
-  "projectFilePath": "/home/said-wali-ayyan/Desktop/StudentManagementSystem/src/SMS.Application/SMS.Application.csproj",
+  "projectFilePath": "/home/said-wali-ayyan/Desktop/CSharp-ASP.NET-Core_Projects/StudentManagementSystem/src/SMS.Application/SMS.Application.csproj",
   "expectedPackageFiles": [
     "/home/said-wali-ayyan/.nuget/packages/fluentvalidation/12.1.1/fluentvalidation.12.1.1.nupkg.sha512",
     "/home/said-wali-ayyan/.nuget/packages/fluentvalidation.dependencyinjectionextensions/12.1.1/fluentvalidation.dependencyinjectionextensions.12.1.1.nupkg.sha512",

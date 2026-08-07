@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "6Vf1bf5194k=",
+  "dgSpecHash": "/GSVou0slU4=",
   "success": true,
-  "projectFilePath": "/home/said-wali-ayyan/Desktop/StudentManagementSystem/tests/SMS.Application.Tests/SMS.Application.Tests.csproj",
+  "projectFilePath": "/home/said-wali-ayyan/Desktop/CSharp-ASP.NET-Core_Projects/StudentManagementSystem/tests/SMS.Application.Tests/SMS.Application.Tests.csproj",
   "expectedPackageFiles": [
     "/home/said-wali-ayyan/.nuget/packages/castle.core/5.1.1/castle.core.5.1.1.nupkg.sha512",
     "/home/said-wali-ayyan/.nuget/packages/coverlet.collector/6.0.4/coverlet.collector.6.0.4.nupkg.sha512",

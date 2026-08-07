@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/said-wali-ayyan/Desktop/StudentManagementSystem/src/SMS.Domain/SMS.Domain.csproj",
+      "projectUniqueName": "/home/said-wali-ayyan/Desktop/CSharp-ASP.NET-Core_Projects/StudentManagementSystem/src/SMS.Domain/SMS.Domain.csproj",
       "projectName": "SMS.Domain",
-      "projectPath": "/home/said-wali-ayyan/Desktop/StudentManagementSystem/src/SMS.Domain/SMS.Domain.csproj",
+      "projectPath": "/home/said-wali-ayyan/Desktop/CSharp-ASP.NET-Core_Projects/StudentManagementSystem/src/SMS.Domain/SMS.Domain.csproj",
       "packagesPath": "/home/said-wali-ayyan/.nuget/packages/",
-      "outputPath": "/home/said-wali-ayyan/Desktop/StudentManagementSystem/src/SMS.Domain/obj/",
+      "outputPath": "/home/said-wali-ayyan/Desktop/CSharp-ASP.NET-Core_Projects/StudentManagementSystem/src/SMS.Domain/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/home/said-wali-ayyan/.nuget/NuGet/NuGet.Config"

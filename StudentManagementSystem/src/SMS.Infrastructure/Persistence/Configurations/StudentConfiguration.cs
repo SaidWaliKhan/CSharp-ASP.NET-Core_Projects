@@ -11,7 +11,7 @@ public class StudentConfiguration : IEntityTypeConfiguration<Student>
         builder.ToTable("Students");
 
         builder.HasKey(s => s.Id);
-
+        builder.Property(s => s.Id).ValueGeneratedNever(); 
         builder.Property(s => s.FirstName)
             .IsRequired()
             .HasMaxLength(100);
@@ -33,5 +33,7 @@ public class StudentConfiguration : IEntityTypeConfiguration<Student>
 
         builder.Metadata.FindNavigation(nameof(Student.Enrollments))!
             .SetPropertyAccessMode(PropertyAccessMode.Field);
+
+        
     }
 }

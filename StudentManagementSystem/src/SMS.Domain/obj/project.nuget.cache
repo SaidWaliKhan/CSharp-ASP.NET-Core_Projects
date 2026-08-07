@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "5KXIAWWRwqY=",
+  "dgSpecHash": "Vz21ACQ0cIo=",
   "success": true,
-  "projectFilePath": "/home/said-wali-ayyan/Desktop/StudentManagementSystem/src/SMS.Domain/SMS.Domain.csproj",
+  "projectFilePath": "/home/said-wali-ayyan/Desktop/CSharp-ASP.NET-Core_Projects/StudentManagementSystem/src/SMS.Domain/SMS.Domain.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
