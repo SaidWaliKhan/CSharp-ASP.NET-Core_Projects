@@ -10,10 +10,11 @@
 using System;
 using System.Reflection;
 
+[assembly: Microsoft.Extensions.Configuration.UserSecrets.UserSecretsIdAttribute("12bf73c1-2ec7-402b-903a-72547b0f729d")]
 [assembly: System.Reflection.AssemblyCompanyAttribute("SMS.WebApi")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b3d4b0b1d872ee56887992516c29a2058a7a7264")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+07bcd1ea717dcbe0664abc221dcad259083bfa7f")]
 [assembly: System.Reflection.AssemblyProductAttribute("SMS.WebApi")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SMS.WebApi")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
